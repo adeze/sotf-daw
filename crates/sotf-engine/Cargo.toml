@@ -85,7 +85,6 @@ rand = { workspace = true }
 [target.'cfg(not(target_os = "ios"))'.dependencies]
 cpal = { workspace = true }
 notify = { workspace = true }
-ctrlc = { workspace = true }
 
 [target.'cfg(all(unix, not(target_os = "ios")))'.dependencies]
 signal-hook = { workspace = true }

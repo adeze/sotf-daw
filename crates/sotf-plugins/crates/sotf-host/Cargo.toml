@@ -78,7 +78,7 @@ memmap2 = { workspace = true }
 sofa-reader = { workspace = true }
 # Direct dep so feature unification activates `bundled` for the rusqlite
 # that sofa-reader depends on (no system sqlite3.lib on Windows).
-rusqlite = { version = "0.41.1", features = ["bundled"] }
+rusqlite = { version = "0.42.0", features = ["bundled"] }
 rayon = { workspace = true }
 rubato = { workspace = true }
 audioadapter-buffers = { workspace = true }

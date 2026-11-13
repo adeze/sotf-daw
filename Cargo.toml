@@ -165,7 +165,6 @@ cpal = "0.18.2"
 criterion = "0.8.2"
 crossbeam = "0.8"
 crossterm = "0.29"
-ctrlc = { version = "3.5", features = ["termination"] }
 directories = "6"
 env_logger = "0.11"
 gpui = { package = "sotf-gpui-toolkit-gpui", version = "0.2.3", git = "https://github.com/pierreaubert/sotf-3rdparties" }
@@ -210,7 +209,7 @@ rtrb = "0.4"
 # Private fork of rubato 5.0.0 (exact variable-ratio sizing, prepared cutoff
 # tables); the shared DSP fork lives in sotf-3rdparties/rubato.
 rubato = { version = "5.0.0",  package = "sotf-rubato",  git = "https://github.com/pierreaubert/sotf-3rdparties" }
-rusqlite = { version = "0.41.1" }
+rusqlite = { version = "0.42.0" }
 rustfft = "6.4"
 serde = { version = "1.0", features = ["derive", "rc"] }
 serde_json = "1.0"

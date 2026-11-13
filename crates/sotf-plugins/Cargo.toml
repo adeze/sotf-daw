@@ -85,7 +85,6 @@ tempfile = { workspace = true }
 serde_yaml = { workspace = true }
 which = { workspace = true }
 clap = { workspace = true }
-ctrlc = { workspace = true }
 chrono = { workspace = true }
 libc = { workspace = true }
 arc-swap = { workspace = true }
